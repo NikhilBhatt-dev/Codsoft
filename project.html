@@ -7,6 +7,11 @@ homepage
 </title>
 <style>
 
+body{
+    margin:0;
+    padding:0;
+}
+
 header{
 
 width:100%;
@@ -87,13 +92,12 @@ color:black;
 }
 
 
-#round{
-width:550px;
-height:510px;
-margin-left:90px;
+img{
+width:650px;
+height:560px;
+margin-left:90px;}
 
 
-}
 
 #profile-details1
 {
@@ -108,12 +112,12 @@ padding-bottom:900px;
 
 section{
 width:100%;
-height:750px;
+height:800px;
 border-width:0px;
 border-style:solid;
 border-color:black;
-box-sizing:border-box;}
-
+box-sizing:border-box;
+}
 
 
 #hello{
@@ -136,48 +140,100 @@ border-radius: 12px;
 float:right;
 margin-bottom:250px;
 }
-
-
 #btn{
 margin-right:15px;}
 
-footer{
-width:100%;
+
+#project{
+    width:400px;
+    height:300px;
+    border:1px solid black;
+    box-sizing: border-box;
+    margin-top:190px;
+    background-image:url(pic.jpg);
+    box-shadow: 11px 10px 11px rgb(161, 142, 96);
+  
+
+}
+li{
+    list-style: none;
+    font-style:italic;
+    font-size:25px;
+    color:burlywood;
+    margin-top:15px;
+    
+   
+
+}
+
+#animation{
+float:left;
+width:155px;
 height:300px;
-border-width:0px;
-box-sizing:border-box;
-border-style:solid;
-color:black;
-
-}
-
-#cont{
-text-align:center;
-font-family:century gothic;
-font-size:18px;
-}
-
-
-#cont-1{
-text-align:center;
-font-family:century gothic;
-font-size:20px;
-}
-
-
-
-#cont-2{
-text-align:center;
-font-family:century gothic;
-float:right;
-box-sizing:border-box;
-border:2px solid green;
-border-radius:15px;
-margin-right:460px;
-padding:2px;
+border:0px solid black;
+margin-left:620px;
+margin-bottom:180px;
+background-image: url(ok.png);
+background-position: center;
+background-repeat: no-repeat;
 margin-top:0;
-font-size:17px;
+
 }
+
+
+footer{
+    width:100%;
+    height:330px;
+    border:1px solid black;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    margin-top:0px;
+
+}
+
+
+
+
+#pro-sol{
+    width:200px;
+    height:40px;
+    border:0px solid green;
+    position:absolute;
+    margin-left:499px;
+    text-align:center;
+    margin-top: 20px;
+    
+
+
+}
+
+#pro-text{
+    font-size:27px;
+    font-family:century gothic;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+#pro-text-1{
+    margin:10px;
+
+}
+
+#pro-text-2{
+text-align:center;
+margin-top:136px;
+border:1px solid green;
+border-radius: 20px;
+height:40px;
+width:240px;
+position:absolute;
+margin-left:480px;
+padding-top:2px;
+
+}
+
 
 #logo{
 float:right;
@@ -187,7 +243,7 @@ margin:0;
 padding:0;
 padding-top:4px;
 
-padding-right:522px;
+padding-right:537px;
 }
 
 
@@ -208,19 +264,20 @@ width:50px;
 height:36px;
 margin-right:10px;
 padding:0;
-padding-top:9px;}
-
-#copyright{
-text-align:center;
-font-size:15px;
+padding-top:9px;
 
 
 }
 
+#copyright{
+margin-top:250px;
+text-align:center;
+font-size:15px;
+}
+
 </style>
 </head>
-<body
-background="black";>
+
 <header> 
 <h1>
 <p id="top"> Nikhil Bhatt </p>
@@ -246,58 +303,56 @@ background="black";>
 
 
 <section>
-<img src="C:\Users\Nikhil bhatt\Downloads\photo.png" href="photo" id="round"/>
 
-<p id="hello">
+<nav id="project">
 
-Hello,I'm<br>
-Nikhil Bhatt<br>
-A frontend developer
-<br>
-<br>
-<button  >
-<a href=  "C:\Users\Nikhil bhatt\Downloads\CV resume.pdf"  >Download-CV</a>
 
-<button id="btn">
+    <ul>
+        <li>Basic Calculator Using HTML&CSS</li>
+        <li> Multimedia-Website </li>
+        <li> Portfolio</li>
+        <li> Sweetshop-Website</li>
+    </ul>
+</nav>
 
-<a href="#contact-as">Get in touch</a>
-</button>
-</p>
+<div id="animation">
+
+</div>
+
 </section>
-<hr>
 
-<footer id="contact-as">
-<p id ="cont"> Get in  touch<br></p>
-<p id="cont-1">Contact media</p>
+<footer>
+<div id="pro-sol">
+<p id="pro-text">Get in touch</p>
+    <p id="pro-text-1">
+Contact Media
+   
+</p></div>
+
+
  
-<p id="cont-2">
-E-mail:
-bhattnikhil158@gmail.com
-<br>Whatsapp:+91-9927178772
-
-</p>
-<br>
-<br>
-<br>
-<br>
+<p id="pro-text-2">
+    E-mail:
+    bhattnikhil158@gmail.com
+    <br>Whatsapp:+91-9927178772
+    
+    </p>
+    
 <a href="https://github.com/NikhilBhatt-dev"><img src="C:\web development\portfolio\github.png"  id="logo"/></a>
 
 
 
 <a href=https://www.linkedin.com/in/nikhil-aa7a28302><img src="C:\web development\portfolio\linkdin.jpeg"  id="logo-linkdin"/></a>
 
-
 <a href="mailto:bhattnikhil158@gmail.com">
-    <img src="C:\web development\portfolio\mail.png"  id="logo-mail"/></a>
-    
+<img src="C:\web development\portfolio\mail.png"  id="logo-mail"/></a>
 
-<br>
-<br>
-<br>
+
+
 <p id="copyright">
-Copyright © 2024 Nikhil Bhatt.All Right Reserved
-</p>
-</footer>
+    Copyright © 2024 Nikhil Bhatt.All Right Reserved
+    </p>
 
+</footer>
 </body>
 </html>
